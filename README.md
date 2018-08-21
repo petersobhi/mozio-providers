@@ -18,13 +18,13 @@ git remote add origin https://github.com/petersobhi/mozio-providers.git
 * [PROJ.4](https://github.com/OSGeo/proj.4/wiki/)
 * [GDAL](https://trac.osgeo.org/gdal/)
 
-### Configuration
-Available settings:
-**PROVIDER_LANGUAGES**
-A tuple of language ISO codes with their full name.
-Used as choices for `language` field of `Provider` model.
+### Configuration  
+Available settings:  
+**PROVIDER_LANGUAGES**  
+A tuple of language ISO codes with their full name.  
+Used as choices for `language` field of `Provider` model.  
 
-**PROVIDER_CURRENCIES**
-A tuple of currency codes with their full name.
-Used as choices for `currency` field of `Provider` model.
+**PROVIDER_CURRENCIES**  
+A tuple of currency codes with their full name.  
+Used as choices for `currency` field of `Provider` model.  
 
