@@ -1,6 +1,8 @@
 # Mozio Providers
  REST API that allow Mozio service providers to register themselves and add their service areas. 
 
+[Online version](http://35.237.53.137/docs/)
+
 ### External Documentation:
 
 * [Django](https://docs.djangoproject.com/en/2.0/releases/2.0/)
