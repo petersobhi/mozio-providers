@@ -1,5 +1,5 @@
 # Mozio Providers
-git remote add origin https://github.com/petersobhi/mozio-providers.git
+ REST API that allow Mozio service providers to register themselves and add their service areas. 
 
 ### External Documentation:
 
