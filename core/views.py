@@ -32,7 +32,7 @@ class ServiceAreaListView(ListCreateAPIView):
     filter_class = ServiceAreaFilter
 
     def create(self, request, *args, **kwargs):
-        serializer = ServiceAreaSerializer(data=request.data)
+        serializer = self.get_serializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save(provider=request.user.provider)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
